@@ -2,13 +2,14 @@ mailappsend
 ===========
 
 Send mails with OS X's Mail.app from the terminal.
+
 Note: The tool actually just creates the mail in Mail.app. To send it you need to use the -x option.
 
 
 Usage
 -----------
 
-```sh
+```
 marc@MFMBP ~ $ mailappsend -h
 Simple CLI utility to create a mail in apple mail
 -s text  set the subject of the mail
@@ -23,6 +24,6 @@ Simple CLI utility to create a mail in apple mail
 Install
 -----------
 
-```sh
+```
 curl https://raw.github.com/Viehzeug/mailappsend/master/mailappsend.sh -o /usr/local/bin/mailappsend && chmod +x /usr/local/bin/mailappsend
 ```
